@@ -4,7 +4,7 @@ using namespace std;
 const double PI = 3.14;
 
 //class 代表设计一个类，后面紧跟着的就是类的名称
-
+//定义一个点类，一个圆类，并判断圆与点的位置关系
 
 //点类
 class Point 
@@ -76,7 +76,7 @@ void isInCircle(Circle &circle,Point &p)
     double r_distance;
     r_distance = pow(circle.getR(),2);
     //判断关系
-    if (r_distance = distance)
+    if (r_distance == distance)
     {
         cout<<"点在圆上"<<endl;
     }
@@ -94,18 +94,21 @@ void isInCircle(Circle &circle,Point &p)
 int main()
 {
     //创建圆
-    Circle circle;
-    circle.setR(10);
-    Point center;
-    center.setX(10);
-    center.setY(0);
-    circle.setCenter(center);
+        Circle circle;
+        circle.setR(10);
+        Point center;
+        center.setX(10);
+        center.setY(0);
+        circle.setCenter(center);
+
     //创建点
-    Point point;
-    point.setX(10.0);
-    point.setY(5);
+        Point point;
+        point.setX(10.0);
+        point.setY(9);
+    
     //判断关系
-    isInCircle(circle,point);
+        isInCircle(circle,point);
+
     system("pause");
     return 0;
 }
