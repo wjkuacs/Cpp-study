@@ -4,6 +4,8 @@
     "args": [
         "-g",
         "${file}",
+	    "-L D:/Program/cpp3rdparty/gr/lib",
+        "-I D:/Program/cpp3rdparty/gr/include",
         "-o",
         "${workspaceFolder}/exe/${fileBasenameNoExtension}.exe"
     ], // 编译命令参数

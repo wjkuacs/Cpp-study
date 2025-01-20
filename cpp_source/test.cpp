@@ -1,9 +1,11 @@
 #include <iostream>
+#include<cstdio>
+#include<gr.h>
 using namespace std;
  
 int main(int argc, char const *argv[])
 {
-    cout << "hello world" << endl;
+    printf("Hello World!\n");
     system("pause");
     return 0;
 }

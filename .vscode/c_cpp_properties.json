@@ -13,7 +13,8 @@
                 "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
                 "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/backward",
                 "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include",
-                "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed"
+                "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed",
+		        "D:/Program/cpp3rdparty/gr/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -36,7 +37,8 @@
                     "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
                     "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/backward",
                     "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include",
-                    "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed"
+                    "D:/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed",
+		            "D:/Program/cpp3rdparty/gr/lib"
                 ]
             }
         }

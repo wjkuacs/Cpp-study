@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include<gr.h>
 using namespace std;
 //圆周率
 const double PI = 3.14;
