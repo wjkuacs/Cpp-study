@@ -45,7 +45,7 @@ int main(){
     long double a = 2.0, b = 1.2;
     long double res = solveFloatPow(a, b);
     //std::cout << "result: " << res << std::endl;
-
-    printf("%.8Lf\n",res);
+    long double resbypow = pow(a,b);
+    printf("solveFloatPow 得到的result为%.18Lf\n pow 函数得到的result为%.18Lf\n",res,resbypow);
     return 0;
 }
