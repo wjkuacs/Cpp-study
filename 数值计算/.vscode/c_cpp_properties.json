@@ -4,13 +4,22 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/ubuntu24/document/root/include"
+                "/home/ubuntu24/document/root/include",
+                "/usr/local/cuda/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/home/ubuntu24/document/root/include",
+                    "/usr/local/cuda/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4
