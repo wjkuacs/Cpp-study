@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main_camke.dir/main.cpp.o CMakeFiles/main_camke.dir/src/swap.cpp.o -o main_camke 

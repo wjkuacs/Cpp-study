@@ -1,0 +1,3 @@
+/home/ubuntu24/workspace/cpp/test2/build/CMakeFiles/main_camke.dir
+/home/ubuntu24/workspace/cpp/test2/build/CMakeFiles/edit_cache.dir
+/home/ubuntu24/workspace/cpp/test2/build/CMakeFiles/rebuild_cache.dir

@@ -40,6 +40,6 @@ int candy(std::vector<int>& ratings){
 }
 
 int main(){
-    std::vector<int> ratings = {1};
+    std::vector<int> ratings = {1,0,2};
     std::cout << candy(ratings) << std::endl;
 }
